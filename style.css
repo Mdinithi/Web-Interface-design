@@ -1,0 +1,169 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/AdventureBoy.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:24px;
+}
+
+.btn
+{
+    background-color: #082420;
+    background-repeat:no-repeat;
+    border-color: white;
+    cursor:pointer;
+    overflow: hidden;  
+    color: white;
+    font-size: 20px;
+}
+
+.bth :hover  ,.btn-primary:hover, .btn-primary:focus
+{
+ color:white;
+ background-color:#50B883;
+ BORDER-color:#50B883;
+ 
+}
+.btn-primary
+{
+  background-color: #082420;
+  border-color: #082420;
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:white;
+  }
+  .flex-container .content {
+    background-color: #FCF8F3;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .row div
+  {
+      padding: 10px 10px 0px 10px;
+      margin: 50px 50px 0px 50px;
+  }
+.serviceImg
+{
+    width: 64px;
+    height: 64px;
+}
+
+.dirImg
+{
+    width: 100px;
+    height: 150px;
+    float:right;
+}
+
+.dirText
+{
+    text-align: left;
+    background-color: #BEEBE9;
+    border-radius: 0.5em;
+    margin-bottom: 100px;
+}
+
+
+.title::before
+{
+content: '';
+background: #DAB312;
+height: 5px;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+transform: translateY(63px);
+}
+
+.title::after
+{
+content: '';
+background: #082420;
+height: 10px;
+width: 50px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 40px;
+display: block;
+transform: translateY(8px);
+}
+
+
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+  
+}
+.pack
+{
+  background-color: #BEEBE9;
+  margin-bottom: 150px;
+  padding: 50px;
+  border-radius: 0.8em;
+}
+
+.Container .row button
+{
+  margin-bottom: 50px;
+}
+
+h1
+{
+  color: black;
+}
+
+.cover_title
+{
+  color: white;
+}
+
+#about, #service
+{
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+body > #about
+{
+  background-image:linear-gradient( #FAFAFA,white);
+}
+
+#service
+{
+  background-image:linear-gradient( #FCF8F3,white);
+}
